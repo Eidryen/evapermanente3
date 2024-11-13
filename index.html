@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezado con Grid</title>
+    <link rel="stylesheet" href="CSS/index01.css">
+    <link rel="icon" href="IMAGENES/favicon.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logotipo"><a href=""><img src="IMAGENES/logo.png" alt="Logotipo"></a></div>
+        <nav>
+            <ul class="navegacion">
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#formulario">Datos</a></li>
+            <li><a href="#ubicacion">Mapas</a></li>
+            <li><a href="#galeria">Galeria</a></li>
+            </ul>
+        </nav>
+        <div class="redes-sociales">
+            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:tu-email@dominio.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </header>
+    
+    <div class="seccion01" id="inicio">
+        <video class="video-fondo" autoplay muted loop>
+            <source src="VIDEOS/video1.mp4" type="video/mp4">Tu navegador no soporta la reproducción de videos.
+        </video>
+        <div class="contenido">
+            <h1 class="titulo">MANOS DE HIERRO - FERRETERIA</h1>
+            <a href="#contactanos"><button class="boton">CONTACTANOS</button></a>
+        </div>
+    </div>
+    
+    <section class="seccion02" id="formulario">
+        <h2>ENVÍA TUS DATOS</h2>
+        <p>Completa el formulario con tus datos y tu mensaje, y nuestro equipo se pondrá en contacto contigo a la brevedad. Estamos aquí para ayudarte y resolver cualquier duda que tengas. ¡Esperamos saber de ti pronto!</p>
+        <div class="grid">
+            <div class="imagen-container">
+                <img src="IMAGENES/1.png" alt="Imagen de ejemplo" class="imagen">
+            </div>
+            <div>
+                <form class="formulario">
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="correo">Correo Electrónico:</label>
+                    <input type="email" id="correo" name="correo" required>
+                    <label for="mensaje">Mensaje:</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="seccion03" id="ubicacion">
+        <h2>NUESTRA UBICACIÓN</h2>
+        <p>Encuéntranos en una zona estratégica de Miraflores, en la Av. Alfredo Benavides 778, Lima. Estamos rodeados de puntos de referencia y fácil acceso para que puedas visitarnos cómodamente. ¡Te esperamos!</p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3900.8060719536284!2d-77.02741122579198!3d-12.125417443368404!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c81c605ea5e1%3A0x17328a8b49d37914!2sISIL%20-%20Miraflores!5e0!3m2!1ses-419!2spe!4v1731434623818!5m2!1ses-419!2spe" class="mapa" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    
+    <section class="seccion04" id="galeria">
+        <h2>GALERIA DE HERRAMIENTAS</h2>
+        <p>Descubre nuestra selección de herramientas de calidad para todos tus proyectos. Contamos con marcas reconocidas que garantizan durabilidad y precisión. ¡Encuentra la herramienta ideal y conoce más detalles haciendo clic en cada una!</p>
+        <div class="galeria">
+            <div class="item-galeria">
+            <img src="IMAGENES/2.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Martillo - Marca: Stanley</p>
+                    <p>Precio: S/. 55</p>
+                    <a href="https://www.promart.pe/martillo-de-u%C3%B1a-c-mango-de-fibra-16-oz-70408/p?gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6Zu1anLsbhezlrqVo9yxrA1rjBv_VbriusQi1SeWdoyHzN7uxfYCVP4aAkN0EALw_wcB">Para mas Información click aqui</a>
+                </div>
+            </div>
+            <div class="item-galeria">
+                <img src="IMAGENES/3.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Taladro - Marca: Bosch</p>
+                    <p>Precio: S/. 399</p>
+                    <a href="https://www.promart.pe/taladro-percutor-850w-gsb-16re-set-x-line-34-bosch/p?gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6Zv2ccI6zAwJ2qOU5e3GnhDOQjRrvPoBlqwtV7IaS5tjuoxGlTlE518aAtcXEALw_wcB">Para mas Información click aqui</a>
+                </div>
+            </div>
+            <div class="item-galeria">
+                <img src="IMAGENES/4.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Llaves fijas - Marca: Craftsman</p>
+                    <p>Precio: S/. 169</p>
+                    <a href="https://www.promart.pe/juego-de-llaves-x-20-piezas/p?gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6ZsU3FvSRYxuo1QWZxr-A0l-wOhWPSXXZUzGczz8l7uoqsSdwoZfzoEaApWmEALw_wcB">Para mas Información click aqui</a>
+                </div>
+            </div>
+            <div class="item-galeria">
+                <img src="IMAGENES/5.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Alicates - Marca: Truper</p>
+                    <p>Precio: S/. 99</p>
+                    <a href="https://www.promart.pe/alicates-dielectricos-1000v-3-piezas-1-probador-de-corriente-truper-1000515106/p?gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6ZujnuVDoBU4HL0MtTbvice8I44skd0mTCnZ7R6qSQGJhHBPBagdZVUaAuf3EALw_wcB">Para mas Información click aqui</a>
+                </div>
+            </div>
+            <div class="item-galeria">
+                <img src="IMAGENES/6.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Cinta métrica - Marca: Stanley</p>
+                    <p>Precio: S/. 12</p>
+                    <a href="https://www.promart.pe/wincha-basica-stanley-5-metros/p">Para mas Información click aqui</a>
+                </div>
+            </div>
+            <div class="item-galeria">
+                <img src="IMAGENES/7.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Sierra de mano - Marca: Stanley</p>
+                    <p>Precio: S/. 34.90</p>
+                    <a href="https://www.promart.pe/arco-de-sierra-marco-solido-12--70407/p?gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6ZsL_1bN2c46Q2ELsaXKCWo6X58awCcxaiVASjjHtP1hQGSkrAqw_CkaAt80EALw_wcB ">Para mas Información click aqui</a>
+                </div>
+            </div>
+            <div class="item-galeria">
+                <img src="IMAGENES/8.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Cuchilla circular (cortador de precisión) - Marca: OLFA</p>
+                    <p>Precio: S/. 116</p>
+                    <a href="https://www.promart.pe/cortadora-de-tela-cuter-rotativo-cuchilla-circular-olfa-45mm-manual-1000484307/p?gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6Zv9vp6bmaM6UYTs34wJCG5RzOWaEEuBPAsabLSUdI2qPTPmKlOBAKsaAnkjEALw_wcB">Para mas Información click aqui</a>
+                </div>
+            </div>
+            <div class="item-galeria">
+                <img src="IMAGENES/9.png" alt="Imagen de referencia" class="imagen-galeria">
+                <div class="descripcion">
+                    <p>Pistola de silicona - Marca: Black+Decker</p>
+                    <p>Precio: S/. 18</p>
+                    <a href="https://www.promart.pe/pistola-para-silicona-gruesa-40-watts-takema-zd-6-1000263185/p?gad_source=1&gclid=Cj0KCQiAlsy5BhDeARIsABRc6Zsc6sMW1ilILuehg_2Y70K2CdfaeTubEojHN7rc8lnud60uGAN3-RwaAn8dEALw_wcB">Para mas Información click aqui</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <footer id="contactanos">
+    <div class="footer-item redes">
+        <h4>Redes Sociales</h4>
+        <div class="redes-sociales">
+            <a href="https://www.tiktok.com" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            <a href="https://www.youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+            <a href="https://www.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="mailto:tu-email@dominio.com"><i class="fa-solid fa-envelope"></i></a>
+            <a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+
+    <div class="footer-item">
+        <h4>Nombre del Alumno</h4>
+        <p>Adrian Vidal Chauca Mejia</p>
+    </div>
+
+    <div class="footer-item contacto">
+        <h4>Contacto</h4>
+        <p>Teléfono Fijo: (123) 456-7890</p>
+        <p>Teléfono Móvil: +51 936 621 719</p>
+    </div>
+
+    <div class="footer-item instituto">
+        <h4>Instituto</h4>
+        <p><span>ISIL</span></p>
+        <p>Distrito: Miraflores</p>
+        <p>Ciudad: Lima, Perú</p>
+    </div>
+
+    <div class="footer-item carrera">
+        <h4>Carrera</h4>
+        <p>Ingeniería de Sistemas</p>
+        <p><span>Año:</span> 2024</p>
+    </div>
+
+    <div class="footer-item">
+        <h4>Docente</h4>
+        <p>Prof. Roberto Inga Alvarado</p>
+    </div>
+</footer>
+
+</body>
+</html>
